@@ -1,13 +1,16 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 
 public class Popup {
-
-    public static void main(String[] args) {
-    	//System.setProperty("webdriver.firefox.marionette","C:\\geckodriver.exe");
-    	System.setProperty("webdriver.chrome.driver", "C://Users//WinWire//Downloads//chromedriver_win32//chromedriver.exe");
+	@Test
+    public static void Popup() {
+    	
+		
+		// Instantiate Chrome Browser driver
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Raju\\git\\SeleniumBasics\\drivers\\chromedriver.exe");
     	WebDriver driver = new ChromeDriver();
         String alertMessage = "";
 

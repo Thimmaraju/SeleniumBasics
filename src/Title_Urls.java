@@ -1,15 +1,15 @@
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 //comment the above line and uncomment below line to use Chrome
 //import org.openqa.selenium.chrome.ChromeDriver;
 public class Title_Urls {
 
-
-    public static void main(String[] args) {
-        // declaration and instantiation of objects/variables
-    	//System.setProperty("webdriver.firefox.marionette","C:\\geckodriver.exe");
-    	System.setProperty("webdriver.chrome.driver", "C://Users//WinWire//Downloads//chromedriver_win32//chromedriver.exe");
+	@Test
+    public void Title_Urls() {
+		// Instantiate Chrome Browser driver
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Raju\\git\\SeleniumBasics\\drivers\\chromedriver.exe");
     	WebDriver driver = new ChromeDriver();
 		//comment the above 2 lines and uncomment below 2 lines to use Chrome
 		//System.setProperty("webdriver.chrome.driver","G:\\chromedriver.exe");

@@ -1,12 +1,14 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 public class AdminLogin {
 
-public static void main(String[] args) {
+@Test
+public void AdminLogin() {
 //Instantiate Chrome Browser driver
-System.setProperty("webdriver.chrome.driver", "E:\\desk\\down\\chromedriver_win32//chromedriver.exe");
+System.setProperty("webdriver.chrome.driver", "C:\\Users\\Raju\\git\\SeleniumBasics\\drivers\\chromedriver.exe");
 // Create Chrome browser driver in Selenium WebDriver Interface
 WebDriver driver = new ChromeDriver();//It launches chrome browser with blank url
 
