@@ -9,7 +9,7 @@ public class AdminLogin {
 @Test
 public void AdminLogin() {
 //Instantiate Chrome Browser driver
-System.setProperty("webdriver.chrome.driver", "C:\\Users\\Raju\\git\\SeleniumBasics\\drivers\\chromedriver.exe");
+System.setProperty("webdriver.chrome.driver", "C:\\Users\\WinWire\\eclipse-workspace\\Selenium_basics\\Drivers\\chromedriver.exe");
 // Create Chrome browser driver in Selenium WebDriver Interface
 WebDriver driver = new ChromeDriver();//It launches chrome browser with blank url
 

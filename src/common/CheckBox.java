@@ -11,7 +11,7 @@ public class CheckBox {
 
 
 		// Instantiate Chrome Browser driver
-		System.setProperty("webdriver.chrome.driver","C:\\Users\\Raju\\git\\SeleniumBasics\\drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\WinWire\\eclipse-workspace\\Selenium_basics\\Drivers\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		String baseUrl = "http://demo.guru99.com/test/login.html";
 		driver.get(baseUrl);
