@@ -1,4 +1,5 @@
 package common;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,8 +8,8 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
 public class HowToSelectDataFromSelectbox {
-	
-WebDriver driver;
+
+	WebDriver driver;
 	
 	@Test
 	public void enterText(){
@@ -17,7 +18,7 @@ WebDriver driver;
 		// For Window user
 		// System.setProperty("webdriver.chrome.driver", "/Users/bsingh5/Documents/coreJava/selenium/drivers/chromedriver.exe");
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\WinWire\\eclipse-workspace\\Selenium_basics\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/Users/bsingh5/Documents/coreJava/selenium/drivers/chromedriver");
 		
 		// Create Object of driver.
 		driver = new ChromeDriver();
@@ -37,17 +38,7 @@ WebDriver driver;
 		
 		WebElement year = driver.findElement(By.xpath("//*[@id='year']"));
 		select = new Select(year);
-		select.selectByVisibleText("2017");
-		
-		try {
-			Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		driver.quit();
+		select.selectByVisibleText("2016");
 		
 	}
-
 }

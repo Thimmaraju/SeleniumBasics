@@ -18,11 +18,7 @@ public class calender  {
 
 		// First step set the driver location
 		// For Window user
-		// System.setProperty("webdriver.chrome.driver",
-		// "/Users/bsingh5/Documents/coreJava/selenium/drivers/chromedriver.exe");
-
-		//System.setProperty("webdriver.chrome.driver",
-		//		"/Users/bsingh5/Documents/coreJava/selenium/drivers/chromedriver");
+		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\WinWire\\eclipse-workspace\\Selenium_basics\\Drivers\\chromedriver.exe");
 
 		driver = new ChromeDriver();

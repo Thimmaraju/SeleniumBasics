@@ -3,13 +3,11 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="UntitledTestCase">
+      <class name="common.HowToHandelCalendarORTextBoxORSelectBox">
         <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="testUntitledTestCase"/>
+          <include name="enterText"/>
         </methods>
-      </class> <!-- UntitledTestCase -->
+      </class> <!-- common.HowToHandelCalendarORTextBoxORSelectBox -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
