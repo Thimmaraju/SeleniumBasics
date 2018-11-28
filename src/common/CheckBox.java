@@ -73,7 +73,7 @@ public class CheckBox {
 			System.out.println("Checkbox is Toggled Off");
 		}
 
-		// Selecting Checkbox and using isSelected Method
+		// Selecting chekbox1 and using isSelected Method
 		driver.get("http://demo.guru99.com/test/facebook.html");
 		WebElement chkFBPersist = driver.findElement(By.id("persist_box"));
 		for (int i = 0; i < 2; i++) {
